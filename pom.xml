@@ -7,10 +7,8 @@
     <artifactId>lion-mvn-install</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
     <properties>
     </properties>
-
     <modules>
         <module>../lion</module>
         <module>../lion-common</module>
