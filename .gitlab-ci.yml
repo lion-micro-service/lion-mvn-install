@@ -9,3 +9,4 @@ build:
     - main
   script:
     - mvn clean install deploy
+
