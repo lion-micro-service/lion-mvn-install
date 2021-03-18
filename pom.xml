@@ -16,6 +16,7 @@
         <module>../lion-oauth2</module>
         <module>../lion-starter</module>
         <module>../lion-upms</module>
+        <module>../lion-monitor</module>
     </modules>
 
     <!-- 配置发布到私服 -->
