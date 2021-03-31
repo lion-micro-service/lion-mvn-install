@@ -24,13 +24,15 @@
         <repository>
             <id>nexus3</id>
             <name>Nexus Release Repository</name>
-            <url>http://127.0.0.1:8081/repository/maven-releases/</url>
+            <url>http://127.0.0.1:9999/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus3</id>
             <name>Nexus Snapshot Repository</name>
-            <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
+            <url>http://127.0.0.1:9999/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
+<!--    mvn clean package -Ddockerfile.skip -Dspring-boot.repackage.skip=false-->
+<!--    mvn clean install -Ddockerfile.skip -Dspring-boot.repackage.skip=true-->
 </project>
