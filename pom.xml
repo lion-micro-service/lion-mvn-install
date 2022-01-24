@@ -12,6 +12,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <java.version>17</java.version>
     </properties>
+
     <modules>
         <module>../lion</module>
         <module>../lion-common</module>
