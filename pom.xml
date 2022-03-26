@@ -39,5 +39,5 @@
     </distributionManagement>
 
 <!--    mvn clean package -Ddockerfile.skip -Dspring-boot.repackage.skip=false-->
-<!--    mvn clean install -Ddockerfile.skip -Dspring-boot.repackage.skip=true-->
+<!--    mvn clean install -Ddockerfile.skip -Dspring-boot.repackage.skip=false-->
 </project>
