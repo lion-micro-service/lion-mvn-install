@@ -21,7 +21,7 @@
         <module>../lion-gateway</module>
         <module>../lion-oauth2</module>
         <module>../lion-starter</module>
-        <module>../lion-upms</module>
+<!--        <module>../lion-upms</module>-->
         <module>../lion-monitor</module>
     </modules>
 
