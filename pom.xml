@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lion</groupId>
     <artifactId>lion-mvn-install</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.3.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     <properties>
-        <version>1.2.0-SNAPSHOT</version>
+        <version>1.3.0-SNAPSHOT</version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <java.version>17</java.version>
@@ -17,7 +17,7 @@
 
     <modules>
         <module>../lion</module>
-        <module>../lion-common</module>
+<!--        <module>../lion-common</module>-->
         <module>../lion-gateway</module>
         <module>../lion-oauth2</module>
         <module>../lion-starter</module>
@@ -41,6 +41,6 @@
 
 <!--    mvn clean package -Ddockerfile.skip -Dspring-boot.repackage.skip=false-->
 <!--    mvn clean install -Ddockerfile.skip -Dspring-boot.repackage.skip=false-->
-<!--    mvn versions:set -DnewVersion=1.2.0-SNAPSHOT-->
-<!--    mvn clean install -Dversion=1.2.0-SNAPSHOT -Ddockerfile.skip -Dspring-boot.repackage.skip=true -DskipTests-->
+<!--    mvn versions:set -DnewVersion=1.3.0-SNAPSHOT-->
+<!--    mvn clean install -Dversion=1.3.0-SNAPSHOT -Ddockerfile.skip -Dspring-boot.repackage.skip=true -DskipTests-->
 </project>
